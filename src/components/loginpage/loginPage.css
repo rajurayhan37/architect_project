@@ -1,0 +1,54 @@
+.leftSide{
+    color: red;
+    height: 100vh;
+    background-image: url('../../images/illustration.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #7F265B;
+}
+.leftText{
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    bottom: 30px;
+    
+}
+
+.rightSide{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.logoSection{
+    padding-top: 50px;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
+.googleLogin{
+    padding: 8px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #7F265B;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.googleLogin:hover{
+    background-color: #7F265B;
+    transition: background-color 0.2s ease-in;
+}
+
+.loginBtn{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #7F265B;
+    font-size: 20px;
+}
